@@ -1,0 +1,228 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\omary\\OneDrive\\Escritorio\\LearningDEV\\BankApiRest_Onion_Architechure\\Persistence\\Persistence.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\omary\\OneDrive\\Escritorio\\LearningDEV\\BankApiRest_Onion_Architechure\\Application\\Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\omary\\OneDrive\\Escritorio\\LearningDEV\\BankApiRest_Onion_Architechure\\Application\\Application.csproj",
+        "projectName": "Application",
+        "projectPath": "C:\\Users\\omary\\OneDrive\\Escritorio\\LearningDEV\\BankApiRest_Onion_Architechure\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\omary\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\omary\\OneDrive\\Escritorio\\LearningDEV\\BankApiRest_Onion_Architechure\\Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\omary\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\omary\\OneDrive\\Escritorio\\LearningDEV\\BankApiRest_Onion_Architechure\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\omary\\OneDrive\\Escritorio\\LearningDEV\\BankApiRest_Onion_Architechure\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Ardalis.Specification": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.6.0, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.6.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\omary\\OneDrive\\Escritorio\\LearningDEV\\BankApiRest_Onion_Architechure\\Domain\\Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\omary\\OneDrive\\Escritorio\\LearningDEV\\BankApiRest_Onion_Architechure\\Domain\\Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "C:\\Users\\omary\\OneDrive\\Escritorio\\LearningDEV\\BankApiRest_Onion_Architechure\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\omary\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\omary\\OneDrive\\Escritorio\\LearningDEV\\BankApiRest_Onion_Architechure\\Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\omary\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\omary\\OneDrive\\Escritorio\\LearningDEV\\BankApiRest_Onion_Architechure\\Persistence\\Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\omary\\OneDrive\\Escritorio\\LearningDEV\\BankApiRest_Onion_Architechure\\Persistence\\Persistence.csproj",
+        "projectName": "Persistence",
+        "projectPath": "C:\\Users\\omary\\OneDrive\\Escritorio\\LearningDEV\\BankApiRest_Onion_Architechure\\Persistence\\Persistence.csproj",
+        "packagesPath": "C:\\Users\\omary\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\omary\\OneDrive\\Escritorio\\LearningDEV\\BankApiRest_Onion_Architechure\\Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\omary\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\omary\\OneDrive\\Escritorio\\LearningDEV\\BankApiRest_Onion_Architechure\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\omary\\OneDrive\\Escritorio\\LearningDEV\\BankApiRest_Onion_Architechure\\Application\\Application.csproj"
+              },
+              "C:\\Users\\omary\\OneDrive\\Escritorio\\LearningDEV\\BankApiRest_Onion_Architechure\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\omary\\OneDrive\\Escritorio\\LearningDEV\\BankApiRest_Onion_Architechure\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Ardalis.Specification.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
