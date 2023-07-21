@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "mjqB2giacbaWIOeuIyiZRigEVfHSmcb1iVQDo+DQp8GociyNscbXwb+tuS2FWEpl9Vp6k/MhPXfkm8BrDFJZfg==",
+  "dgSpecHash": "AWCEBEixiwXViT12IjJx1TjbYAGWgkguE0zWKESDRbM77tieMoLpGH6lKlqMFThg4FF0u1LstgLHqGVKemzp/A==",
   "success": true,
   "projectFilePath": "C:\\Users\\omary\\OneDrive\\Escritorio\\LearningDEV\\BankApiRest_Onion_Architechure\\WebApi\\WebApi.csproj",
   "expectedPackageFiles": [
@@ -32,6 +32,7 @@
     "C:\\Users\\omary\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\omary\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\omary\\.nuget\\packages\\microsoft.extensions.caching.memory\\7.0.0\\microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
+    "C:\\Users\\omary\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
     "C:\\Users\\omary\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\omary\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
     "C:\\Users\\omary\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",

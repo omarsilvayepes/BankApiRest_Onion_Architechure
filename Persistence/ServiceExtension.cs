@@ -16,8 +16,8 @@ namespace Persistence
                 b => b.MigrationsAssembly(typeof(ApplicationDbContext).Assembly.FullName)
                 ));
 
-             #region
-            services.AddTransient(typeof(IRepositoryAsync<>), typeof(MyRepositoryAsync<>));// Dependency Injection Generic
+            #region Repositories
+             services.AddTransient(typeof(IRepositoryAsync<>), typeof(MyRepositoryAsync<>));// Dependency Injection Generic
             #endregion
         }
     }

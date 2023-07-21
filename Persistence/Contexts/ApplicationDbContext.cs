@@ -17,7 +17,7 @@ namespace Persistence.Contexts
 
         public DbSet<Client> clients { get; set; }
 
-        public override Task<int> SaveChangesAsync(CancellationToken cancellationToken=new CancellationToken())
+        public override Task<int> SaveChangesAsync(CancellationToken cancellationToken=new CancellationToken())// Method for saved the CreatedDate and Update fields models
         {
             foreach (var entry in ChangeTracker.Entries<AuditableBaseEntity>())
             {
@@ -34,7 +34,7 @@ namespace Persistence.Contexts
             return base.SaveChangesAsync(cancellationToken);
         }
 
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        protected override void OnModelCreating(ModelBuilder modelBuilder) //Method for create migrations
         {
             modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
         }

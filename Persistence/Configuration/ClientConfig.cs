@@ -13,12 +13,12 @@ namespace Persistence.Configuration
             builder.Property(p=> p.FirstName).HasMaxLength(80).IsRequired();
             builder.Property(p => p.LastName).HasMaxLength(80).IsRequired();
             builder.Property(p => p.Birthday).IsRequired();
-            builder.Property(p => p.Telephone).HasMaxLength(9).IsRequired();
+            builder.Property(p => p.Telephone).HasMaxLength(10).IsRequired();
             builder.Property(p => p.Email).HasMaxLength(100);
             builder.Property(p => p.Address).HasMaxLength(120).IsRequired();
             builder.Property(p => p.Age);
-            builder.Property(p => p.CreateBy).HasMaxLength(30);
-            builder.Property(p => p.LastModifiedBy).HasMaxLength(30);
+            //builder.Property(p => p.CreateBy).HasMaxLength(30);
+            //builder.Property(p => p.LastModifiedBy).HasMaxLength(30);
         }
     }
 }

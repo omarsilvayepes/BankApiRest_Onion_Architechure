@@ -28,9 +28,19 @@ namespace Application.Features.Commands.CreateClientCommand
         }
         public async Task<Response<int>> Handle(CreateClientCommand request, CancellationToken cancellationToken)
         {
-            var newRecord = mapper.Map<Client>(request);
-            var data = await repositoryAsync.AddAsync(newRecord);
-            return new Response<int>(data.Id);
+            
+
+            try
+            {
+                var newRecord = mapper.Map<Client>(request);
+                var data = await repositoryAsync.AddAsync(newRecord);
+                return new Response<int>(data.Id);
+            }
+            catch (Exception ex)
+            { 
+            
+                return new Response<int>(0);
+            }
         }
     }
 }
