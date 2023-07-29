@@ -15,7 +15,7 @@ namespace WebApi.Middlewares
         {
             try
             {
-                _next(context);
+                await _next(context);
             }
             catch (Exception error)
             {

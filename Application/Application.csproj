@@ -7,11 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="DTOs\" />
-    <Folder Include="Features\Commands\DeleteClientCommand\" />
-    <Folder Include="Features\Commands\UpdateClientCommand\" />
     <Folder Include="Features\Queries\GetAllClients\" />
-    <Folder Include="Features\Queries\GetClientById\" />
     <Folder Include="Filters\" />
   </ItemGroup>
 

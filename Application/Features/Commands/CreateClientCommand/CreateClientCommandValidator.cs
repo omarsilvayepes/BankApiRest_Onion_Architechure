@@ -16,7 +16,7 @@ namespace Application.Features.Commands.CreateClientCommand
 
             RuleFor(p => p.Telephone)
                 .NotEmpty().WithMessage("{PropertyName} Can not be empty")
-                .MaximumLength(9).WithMessage("{PropertyName} should not excede {MaxLenght} characteres");
+                .MaximumLength(10).WithMessage("{PropertyName} should not excede {MaxLenght} characteres");
 
             RuleFor(p => p.Email).NotEmpty().WithMessage("{PropertyName} Can not be empty")
                 .EmailAddress().WithMessage("\"{PropertyName} must be a Email valid")
