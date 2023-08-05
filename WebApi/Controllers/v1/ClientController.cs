@@ -1,6 +1,7 @@
 ﻿using Application.Features.Commands.CreateClientCommand;
 using Application.Features.Commands.DeleteClientCommand;
 using Application.Features.Commands.UpdateClientCommand;
+using Application.Features.Queries.GetAllClients;
 using Application.Features.Queries.GetClientById;
 using Microsoft.AspNetCore.Mvc;
 
@@ -35,6 +36,17 @@ namespace WebApi.Controllers.v1
         public async Task<IActionResult> Get(int id)
         {
             return Ok(await Mediator.Send(new GetClientByIdQuery { Id = id }));
+        }
+
+        [HttpGet()]
+        public async Task<IActionResult> GetAll([FromQuery] GetAllClientParameters filter)
+        {
+            return Ok(await Mediator.Send(new GetAllClientsQuery 
+            {   PageNumber=filter.PageNumber,
+                PageSize=filter.PageSize,
+                FirstName=filter.FirstName,
+                LastName=filter.LastName
+            }));
         }
 
     }
