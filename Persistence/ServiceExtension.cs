@@ -19,6 +19,16 @@ namespace Persistence
             #region Repositories
              services.AddTransient(typeof(IRepositoryAsync<>), typeof(MyRepositoryAsync<>));// Dependency Injection Generic
             #endregion
+
+            #region
+            services.AddStackExchangeRedisCache(options =>
+            {
+                options.Configuration = configuration.GetSection("Caching:RedisConnection").Value;
+
+            });
+            #endregion
+
+
         }
     }
 }
