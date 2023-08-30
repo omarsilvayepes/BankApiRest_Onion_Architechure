@@ -1,4 +1,5 @@
 ﻿using Application;
+using Identity;
 using Persistence;
 using Shared;
 using WebApi.Extensions;
@@ -19,6 +20,7 @@ namespace WebApi
             //Add services
 
             services.AddControllers();
+            services.AddIdentityInfraestructure(Configuration);
             services.AddEndpointsApiExplorer();
             services.AddSwaggerGen();
             services.AddApplicationLayer();

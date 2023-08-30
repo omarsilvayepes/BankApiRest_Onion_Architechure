@@ -1,6 +1,6 @@
 ﻿namespace Application.Wrappers
 {
-    public class Response<T>
+    public class Response<T> //Generic class response
     {
         public Response() { }
         public Response(T data,string message=null)

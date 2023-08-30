@@ -1,11 +1,16 @@
 C:\Users\omary\OneDrive\Escritorio\LearningDEV\BankApiRest_Onion_Architechure\Identity\bin\Debug\net7.0\Identity.deps.json
 C:\Users\omary\OneDrive\Escritorio\LearningDEV\BankApiRest_Onion_Architechure\Identity\bin\Debug\net7.0\Identity.dll
 C:\Users\omary\OneDrive\Escritorio\LearningDEV\BankApiRest_Onion_Architechure\Identity\bin\Debug\net7.0\Identity.pdb
+C:\Users\omary\OneDrive\Escritorio\LearningDEV\BankApiRest_Onion_Architechure\Identity\bin\Debug\net7.0\Application.dll
+C:\Users\omary\OneDrive\Escritorio\LearningDEV\BankApiRest_Onion_Architechure\Identity\bin\Debug\net7.0\Domain.dll
+C:\Users\omary\OneDrive\Escritorio\LearningDEV\BankApiRest_Onion_Architechure\Identity\bin\Debug\net7.0\Application.pdb
+C:\Users\omary\OneDrive\Escritorio\LearningDEV\BankApiRest_Onion_Architechure\Identity\bin\Debug\net7.0\Domain.pdb
 C:\Users\omary\OneDrive\Escritorio\LearningDEV\BankApiRest_Onion_Architechure\Identity\obj\Debug\net7.0\Identity.csproj.AssemblyReference.cache
 C:\Users\omary\OneDrive\Escritorio\LearningDEV\BankApiRest_Onion_Architechure\Identity\obj\Debug\net7.0\Identity.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\omary\OneDrive\Escritorio\LearningDEV\BankApiRest_Onion_Architechure\Identity\obj\Debug\net7.0\Identity.AssemblyInfoInputs.cache
 C:\Users\omary\OneDrive\Escritorio\LearningDEV\BankApiRest_Onion_Architechure\Identity\obj\Debug\net7.0\Identity.AssemblyInfo.cs
 C:\Users\omary\OneDrive\Escritorio\LearningDEV\BankApiRest_Onion_Architechure\Identity\obj\Debug\net7.0\Identity.csproj.CoreCompileInputs.cache
+C:\Users\omary\OneDrive\Escritorio\LearningDEV\BankApiRest_Onion_Architechure\Identity\obj\Debug\net7.0\Identity.csproj.CopyComplete
 C:\Users\omary\OneDrive\Escritorio\LearningDEV\BankApiRest_Onion_Architechure\Identity\obj\Debug\net7.0\Identity.dll
 C:\Users\omary\OneDrive\Escritorio\LearningDEV\BankApiRest_Onion_Architechure\Identity\obj\Debug\net7.0\refint\Identity.dll
 C:\Users\omary\OneDrive\Escritorio\LearningDEV\BankApiRest_Onion_Architechure\Identity\obj\Debug\net7.0\Identity.pdb
