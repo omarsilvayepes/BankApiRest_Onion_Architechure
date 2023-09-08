@@ -76,6 +76,10 @@
               "target": "Package",
               "version": "[7.0.0, )"
             },
+            "Microsoft.Extensions.Identity.Core": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"

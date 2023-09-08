@@ -178,6 +178,35 @@
           "lib/netstandard2.1/MediatR.Extensions.Microsoft.DependencyInjection.dll": {}
         }
       },
+      "Microsoft.AspNetCore.Cryptography.Internal/7.0.10": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Microsoft.AspNetCore.Cryptography.Internal.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.AspNetCore.Cryptography.Internal.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Cryptography.KeyDerivation/7.0.10": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Cryptography.Internal": "7.0.10"
+        },
+        "compile": {
+          "lib/net7.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
         "type": "package",
         "compile": {
@@ -473,6 +502,24 @@
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "Microsoft.Extensions.Identity.Core/7.0.10": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Cryptography.KeyDerivation": "7.0.10",
+          "Microsoft.Extensions.Logging": "7.0.0",
+          "Microsoft.Extensions.Options": "7.0.1"
+        },
+        "compile": {
+          "lib/net7.0/Microsoft.Extensions.Identity.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.Extensions.Identity.Core.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Microsoft.Extensions.Logging/7.0.0": {
@@ -1296,6 +1343,7 @@
           "MediatR.Extensions.Microsoft.DependencyInjection": "11.1.0",
           "Microsoft.Extensions.Caching.Abstractions": "7.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0",
+          "Microsoft.Extensions.Identity.Core": "7.0.10",
           "Newtonsoft.Json": "13.0.3"
         },
         "compile": {
@@ -1499,6 +1547,44 @@
         "lib/netstandard2.1/MediatR.Extensions.Microsoft.DependencyInjection.dll",
         "mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
         "mediatr.extensions.microsoft.dependencyinjection.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Cryptography.Internal/7.0.10": {
+      "sha512": "AhNj547biaNSjp3z0DY4um1ILtadaiwYuzR1oShNMfkaRQ8cy8VVIbM458GvQi0TYg8AdP6g80bSLBMVbZmv3g==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.cryptography.internal/7.0.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net462/Microsoft.AspNetCore.Cryptography.Internal.dll",
+        "lib/net462/Microsoft.AspNetCore.Cryptography.Internal.xml",
+        "lib/net7.0/Microsoft.AspNetCore.Cryptography.Internal.dll",
+        "lib/net7.0/Microsoft.AspNetCore.Cryptography.Internal.xml",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.Internal.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.Internal.xml",
+        "microsoft.aspnetcore.cryptography.internal.7.0.10.nupkg.sha512",
+        "microsoft.aspnetcore.cryptography.internal.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Cryptography.KeyDerivation/7.0.10": {
+      "sha512": "9C1J2odRpiHHhmWeR8OKzUXZvx0TL3XLjGbp8t69efJHJHnzoBkmZ86h4A3BV7O6YxIAwqQOESvUNV7TxiMYNQ==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.cryptography.keyderivation/7.0.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net462/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll",
+        "lib/net462/Microsoft.AspNetCore.Cryptography.KeyDerivation.xml",
+        "lib/net7.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll",
+        "lib/net7.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.xml",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.xml",
+        "microsoft.aspnetcore.cryptography.keyderivation.7.0.10.nupkg.sha512",
+        "microsoft.aspnetcore.cryptography.keyderivation.nuspec"
       ]
     },
     "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
@@ -1926,6 +2012,25 @@
         "microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
         "microsoft.extensions.dependencyinjection.abstractions.nuspec",
         "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.Identity.Core/7.0.10": {
+      "sha512": "6dwVLpBR8yegjRLO4qJCKrWflN10JUwnLXAJdkKUKCBnxNBhXkVNC7+zaTNFPfqEPjt35fvYy2kPgAmLqJc9HQ==",
+      "type": "package",
+      "path": "microsoft.extensions.identity.core/7.0.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net462/Microsoft.Extensions.Identity.Core.dll",
+        "lib/net462/Microsoft.Extensions.Identity.Core.xml",
+        "lib/net7.0/Microsoft.Extensions.Identity.Core.dll",
+        "lib/net7.0/Microsoft.Extensions.Identity.Core.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Identity.Core.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Identity.Core.xml",
+        "microsoft.extensions.identity.core.7.0.10.nupkg.sha512",
+        "microsoft.extensions.identity.core.nuspec"
       ]
     },
     "Microsoft.Extensions.Logging/7.0.0": {

@@ -27,6 +27,7 @@ namespace WebApi.Middlewares
                     case Application.Exceptions.ApiException e:
                         //Custom application Error
                         response.StatusCode = (int)HttpStatusCode.BadRequest;
+                        responseModel.Errors = e.Errors;
                         break;
                     case Application.Exceptions.ValidationException e:
                         //Custom application Error

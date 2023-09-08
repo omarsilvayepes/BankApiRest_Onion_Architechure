@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "DyTsCOwWTyasKY59hbECJh1rLadNyYJGeMtd+gOlSOgainRUXWyCjpYYJE/VMIBABhKEXamP3UVdqvZ20+LRwQ==",
+  "dgSpecHash": "JsLd0NQkanc+ZAdE2ooPbEPakhs3VX+94rbAXKeq1EBVB4ST8L95BJHLNDIDHrKuRHmz+ck4UOqnVFkns/MnAg==",
   "success": true,
   "projectFilePath": "C:\\Users\\omary\\OneDrive\\Escritorio\\LearningDEV\\BankApiRest_Onion_Architechure\\Persistence\\Persistence.csproj",
   "expectedPackageFiles": [
@@ -15,6 +15,8 @@
     "C:\\Users\\omary\\.nuget\\packages\\mediatr\\11.0.0\\mediatr.11.0.0.nupkg.sha512",
     "C:\\Users\\omary\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
     "C:\\Users\\omary\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.1.0\\mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
+    "C:\\Users\\omary\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\7.0.10\\microsoft.aspnetcore.cryptography.internal.7.0.10.nupkg.sha512",
+    "C:\\Users\\omary\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\7.0.10\\microsoft.aspnetcore.cryptography.keyderivation.7.0.10.nupkg.sha512",
     "C:\\Users\\omary\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\omary\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\omary\\.nuget\\packages\\microsoft.data.sqlclient\\5.0.2\\microsoft.data.sqlclient.5.0.2.nupkg.sha512",
@@ -31,6 +33,7 @@
     "C:\\Users\\omary\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\omary\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
     "C:\\Users\\omary\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\omary\\.nuget\\packages\\microsoft.extensions.identity.core\\7.0.10\\microsoft.extensions.identity.core.7.0.10.nupkg.sha512",
     "C:\\Users\\omary\\.nuget\\packages\\microsoft.extensions.logging\\7.0.0\\microsoft.extensions.logging.7.0.0.nupkg.sha512",
     "C:\\Users\\omary\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.1\\microsoft.extensions.logging.abstractions.7.0.1.nupkg.sha512",
     "C:\\Users\\omary\\.nuget\\packages\\microsoft.extensions.options\\7.0.1\\microsoft.extensions.options.7.0.1.nupkg.sha512",

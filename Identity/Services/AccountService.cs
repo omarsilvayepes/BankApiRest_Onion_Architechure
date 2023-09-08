@@ -7,6 +7,7 @@ using Domain.Settings;
 using Identity.Helpers;
 using Identity.Models;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
@@ -27,14 +28,14 @@ namespace Identity.Services
             UserManager<ApplicationUser> userManager,
             RoleManager<IdentityRole> roleManager,
             SignInManager<ApplicationUser> signInManager,
-            JWTSettings jwtSettings,
+            IOptions<JWTSettings> jwtSettings,
             IDateTimeService dateTimeService
             )
         {
             _userManager = userManager;
             _roleManager = roleManager;
             _signInManager = signInManager;
-            _jwtSettings= jwtSettings;
+            _jwtSettings= jwtSettings.Value;
             _dateTimeService = dateTimeService;
         }
 
@@ -60,7 +61,7 @@ namespace Identity.Services
                 RefreshToken=refreshToken.Token
             };
 
-            return new Response<AuthenticationResponse>(response,$"Authenticate User{user.UserName}");
+            return new Response<AuthenticationResponse>(response,$"Authenticate User Succesfully: {user.UserName}");
         }
 
         private async Task<JwtSecurityToken>GenerateJWTAsync(ApplicationUser user)
@@ -125,7 +126,7 @@ namespace Identity.Services
             var sameUserName=await _userManager.FindByNameAsync(request.UserName);
             if (sameUserName != null)
             {
-                throw new ApiException($"The UserName{request.UserName} it is already register");
+                throw new ApiException($"The UserName: {request.UserName} it is already register");
             }
 
             var user = new ApplicationUser
@@ -141,7 +142,7 @@ namespace Identity.Services
             var sameUserEmail=await _userManager.FindByEmailAsync(request.Email);
             if(sameUserEmail != null) 
             {
-                throw new ApiException($"The UserEmail{request.Email} it is already register");
+                throw new ApiException($"The UserEmail: {request.Email} it is already register");
             }
             else
             {
@@ -154,7 +155,7 @@ namespace Identity.Services
                 }
                 else
                 {
-                    throw new ApiException($"{result.Errors}");
+                    throw new ApiException(result.Errors);
                 }
             }
         }
