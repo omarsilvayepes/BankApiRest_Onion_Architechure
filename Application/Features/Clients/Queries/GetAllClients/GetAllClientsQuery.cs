@@ -36,7 +36,7 @@ namespace Application.Features.Queries.GetAllClients
                 var clientsList=new List<Client>();
                 var redisClientList = await distributedCache.GetAsync(cacheKey); //Get Cache :Tets directly in Redis console using Get + Key
 
-                if (redisClientList!=null)
+                if (redisClientList!=null && redisClientList.Length>0)
                 {
                     clientsList = JsonConvert.DeserializeObject<List<Client>>(Encoding.UTF8.GetString(redisClientList));
                 }
